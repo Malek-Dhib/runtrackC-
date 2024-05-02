@@ -1,0 +1,22 @@
+
+
+
+x = p + 3 :
+        Type : short int (puisque p est de type short int)
+        Valeur : p + 3 = 10 + 3 = 13
+y = c + 1 :
+        Type : int (par promotion de type, car les types char et int sont promus à int lors d'une opération arithmétique)
+        Valeur : c + 1 = 1 (car '\x01' représente le caractère ASCII de valeur décimale 1)
+z = p + c :
+        Type : int (par promotion de type, car les types short int et char sont promus à int lors d'une opération arithmétique)
+        Valeur : p + c = 10 + 1 = 11
+w = 3 * p + 5 * c :
+        Type : int (par promotion de type, car les types short int et char sont promus à int lors d'une opération arithmétique)
+        Valeur : 3 * p + 5 * c = 3 * 10 + 5 * 1 = 30 + 5 = 35
+        
+Récapitulatif :
+
+x = 13 (short int)
+y = 1 (int)
+z = 11 (int)
+w = 35 (int)
